@@ -1,5 +1,6 @@
 const API = {
   //Retrieves all workouts but only returns the last workuot in the return stmt
+
   async getLastWorkout() {
     try {
       const res = await fetch("/api/workouts");
